@@ -22,7 +22,7 @@ class ErrorBoundary extends Component<{ children: ReactNode }, { failed: boolean
   render() {
     if (this.state.failed) return (
       <main className="grid min-h-screen place-items-center bg-canvas p-6 text-center dark:bg-slate-950">
-        <div><h1 className="text-2xl font-bold text-ink dark:text-white">Something went wrong</h1>
+        <div><h1 className="text-2xl font-bold text-ink dark:text-white">Something went wrongggg</h1>
           <p className="mt-2 text-muted">The page hit an unexpected error.</p>
           <button className="button-primary mt-5" onClick={() => window.location.reload()}>Reload page</button>
         </div>
